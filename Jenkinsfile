@@ -30,8 +30,7 @@ def inputParamsString() {
 
   //def root = new XmlParser().parseText(xml)
 
-  return "1.1.1
-    2.2.2"
+  return ["1.1.1","2.2.2"]
     //root.data.artifact.collect {
    // "${it.groupId.text()}:${it.artifactId.text()}:${it.version.text()}"
   //}
